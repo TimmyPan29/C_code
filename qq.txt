@@ -1,0 +1,5 @@
+you are my friend
+Are you sure?\n#
+Are you ok?
+can you speak english?
+no, i can't. # 

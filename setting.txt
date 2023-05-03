@@ -1,0 +1,19 @@
+15 % n
+4 % r
+1 1 1 1 0 1 1 0 1 0 0 1 0 0 0 %H
+1 1 1 0 1 1 0 1 0 1 0 0 1 0 0 
+1 1 0 1 1 0 1 1 0 0 1 0 0 1 0 
+1 0 1 1 1 0 0 0 1 1 1 0 0 0 1 
+12 %m:No. Error patterns
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 %error pattern z0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 %error pattern z1
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 %error pattern z2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 %error pattern z3
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 %error pattern z4
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 %error pattern z5
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 %error pattern z6
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 %error pattern z7
+1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 %error pattern z8
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 %error pattern z9
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 %error pattern z10
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 %error pattern z11
