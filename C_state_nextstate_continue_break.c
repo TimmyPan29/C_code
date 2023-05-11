@@ -5,7 +5,8 @@ int main (){
 int count=0;
 int state=0 ;
 int next_state;
-for(int i=0;i<9;i++){
+int enable=0;
+for(int i=0;i<10&&enable==0;i++){ //a.k.a.for(int i=0;i<10,enable==0;i++)
 	if(i<6){
 		next_state = 1 ;
 	}
@@ -38,14 +39,15 @@ switch (state){
 		printf("state =%d\n",state);
 		printf("next_state =%d\n",next_state);
 		printf("i=%d\n",i);
-      break;
-
+		enable=1;
+      break;//will not process the statement behind "break".and jump out switth
+	//to process "hello\n"
     default:
 		printf("bye");
       break;
-}
+} //switch end
 	printf("hello\n");
-}
+}//for end
 	printf("\n");
 	printf("final count=%d",count);
 		return 0;
